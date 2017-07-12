@@ -3,16 +3,16 @@ Wenli.Search是一个基于luence的全文搜索封装库
 
 使用配置如下：
 
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <configSections>
-    <section name="searchConfig" type="Wenli.Search.SearchConfig,Wenli.Search" />
-  </configSections>
-  <searchConfig FSDirectory="E:\Wenli.Search\Wenli.Search.Demo\bin\Debug\SearchIndex" PanGuXmlFilePath="PanGu.xml" />
-  <startup>
-    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/>
-  </startup>
-</configuration>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;configuration&gt;
+  &lt;configSections&gt;
+    &lt;section name=&quot;searchConfig&quot; type=&quot;Wenli.Search.SearchConfig,Wenli.Search&quot; /&gt;
+  &lt;/configSections&gt;
+  &lt;searchConfig FSDirectory=&quot;E:\Wenli.Search\Wenli.Search.Demo\bin\Debug\SearchIndex&quot; PanGuXmlFilePath=&quot;PanGu.xml&quot; /&gt;
+  &lt;startup&gt;
+    &lt;supportedRuntime version=&quot;v4.0&quot; sku=&quot;.NETFramework,Version=v4.5&quot;/&gt;
+  &lt;/startup&gt;
+&lt;/configuration&gt;
 
 
 
